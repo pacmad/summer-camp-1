@@ -1,0 +1,14 @@
+@import "./settings";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "./components/header";
+@import "./components/navigation";
+
+body {
+  font-family: "Poppins";
+}
+
+// $primary: #2a8682;
+// $secondary: #004f93;
+// $color-text: #424242;
+// $color-2: #f7f7f7;
+// $color-4: rgb(32, 35, 42);
