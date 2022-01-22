@@ -2,23 +2,18 @@ import React from "react";
 
 export default function NewsletterForm() {
   return (
-    <div>
-      <form className="text-center pt-1 pb-5">
-        <div className="mb-3">
-          <input
-            type="email "
-            className="form-control w-50 m-auto "
-            aria-describedby="emailHelp"
-            placeholder="Votre e-mail"
-          />
-          <div id="emailHelp">
-            We'll never share your email with anyone else.
-          </div>
-        </div>
-        <button type="submit" className="btn btn-secondary">
-          Send !
-        </button>
-      </form>
+    <div className="input-group w-50 mx-auto mb-5">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Recipient's username"
+        aria-label="Recipient's username"
+        aria-describedby="basic-addon2"
+      ></input>
+
+      <button class="btn btn-secondary" type="button">
+        send !
+      </button>
     </div>
   );
 }
