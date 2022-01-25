@@ -1,9 +1,11 @@
 import React from "react";
 import HeaderTitre from "./HeaderTitre";
+import Navigation from "./Navigation";
 
 export default function Header() {
   return (
-    <div className="p-5 header ">
+    <div className=" header ">
+      <Navigation />
       <HeaderTitre />
     </div>
   );

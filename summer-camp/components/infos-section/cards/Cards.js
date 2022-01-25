@@ -23,7 +23,7 @@ export default function Cards() {
     },
   ];
   return (
-    <div className="my-5">
+    <div className=" cards">
       <h2>Les chantiers d’été, c’est quoi ?</h2>
       <div className="row">
         {cardData.map((cardsInfo) => (

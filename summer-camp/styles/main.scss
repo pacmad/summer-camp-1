@@ -2,7 +2,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "./components/header";
 @import "./components/navigation";
-
+@import "./components/cards";
+@import "./pages/contact";
+@import "./components/tabs";
 body {
   font-family: "Poppins";
 }

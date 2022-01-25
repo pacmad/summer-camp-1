@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Tabs() {
   return (
-    <div className="my-5">
+    <div className="tabs">
       <h2>Comment ça se passe ?</h2>
-      <div class="d-flex align-items-start bg-info  rounded  p-5">
+      <div class="d-flex align-items-start bg-info  rounded  p-5 shadow ">
         <div
           class="nav flex-column nav-pills me-3 pe-3 border-end border-primary  "
           id="v-pills-tab"

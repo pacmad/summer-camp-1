@@ -41,7 +41,7 @@ export default function CardsActivity() {
     },
   ];
   return (
-    <div>
+    <div className="my-5">
       <h2>Nos activites !</h2>
       <div className="row">
         {cardActivityData.map((cardItem) => (

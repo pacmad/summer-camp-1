@@ -1,0 +1,15 @@
+.contact {
+  background-color: #90ccdb;
+  height: 100vh;
+  .header-pic {
+    background: url(../../public/images/summer3.jpg) center/cover;
+    height: 400px;
+    // padding-top: 200px;
+  }
+
+  .contact-form {
+    background-color: #ffffff;
+    margin: 10rem auto;
+    height: 600px;
+  }
+}

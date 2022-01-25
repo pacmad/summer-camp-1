@@ -24,7 +24,7 @@ export default function Navigation() {
             <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
               <li class="nav-item nav-link ">
                 <Link class="active" aria-current="page" href="/">
-                  Acceuil
+                  Accueil
                 </Link>
               </li>
               <li class="nav-item nav-link">
