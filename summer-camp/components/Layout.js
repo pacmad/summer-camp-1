@@ -9,6 +9,7 @@ export default function Layout({ children, page, nameOfPage, content }) {
         <title>{page}</title>
         <meta name={nameOfPage} content={content} />
       </Head>
+      <Navigation />
 
       {children}
 

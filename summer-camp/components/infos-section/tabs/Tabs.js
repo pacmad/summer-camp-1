@@ -6,13 +6,13 @@ export default function Tabs() {
       <h2>Comment ça se passe ?</h2>
       <div class="d-flex align-items-start bg-info  rounded  p-5 shadow ">
         <div
-          class="nav flex-column nav-pills me-3 pe-3 border-end border-primary  "
+          className="nav flex-column nav-pills me-3 pe-3 border-end border-primary  "
           id="v-pills-tab"
           role="tablist"
           aria-orientation="vertical"
         >
           <button
-            class="nav-link  text-end active "
+            className="nav-link  text-end active "
             id="v-pills-home-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-home"
@@ -24,7 +24,7 @@ export default function Tabs() {
             When ?
           </button>
           <button
-            class="nav-link text-end"
+            className="nav-link text-end"
             id="v-pills-profile-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-profile"
@@ -36,7 +36,7 @@ export default function Tabs() {
             Accommodation
           </button>
           <button
-            class="nav-link text-end"
+            className="nav-link text-end"
             id="v-pills-messages-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-messages"
@@ -48,7 +48,7 @@ export default function Tabs() {
             Meals
           </button>
           <button
-            class="nav-link text-end"
+            className="nav-link text-end"
             id="v-pills-settings-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-settings"
@@ -60,7 +60,7 @@ export default function Tabs() {
             Travel
           </button>
         </div>
-        <div class="tab-content " id="v-pills-tabContent">
+        <div className="tab-content " id="v-pills-tabContent">
           <div
             class="tab-pane fade show active"
             id="v-pills-home"
@@ -70,7 +70,7 @@ export default function Tabs() {
             <p>At least one week between June 15th to September 15th</p>
           </div>
           <div
-            class="tab-pane fade"
+            className="tab-pane fade"
             id="v-pills-profile"
             role="tabpanel"
             aria-labelledby="v-pills-profile-tab"
@@ -83,7 +83,7 @@ export default function Tabs() {
             </p>
           </div>
           <div
-            class="tab-pane fade"
+            className="tab-pane fade"
             id="v-pills-messages"
             role="tabpanel"
             aria-labelledby="v-pills-messages-tab"
@@ -95,7 +95,7 @@ export default function Tabs() {
             </p>
           </div>
           <div
-            class="tab-pane fade"
+            className="tab-pane fade"
             id="v-pills-settings"
             role="tabpanel"
             aria-labelledby="v-pills-settings-tab"

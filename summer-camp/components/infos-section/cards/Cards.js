@@ -12,7 +12,7 @@ export default function Cards() {
     {
       id: 2,
       titre: "solidarite",
-      info: "letters, as ' page editors now usepsum as their default model text, and a search for 'lorem ipsum' will un",
+      info: "letters, as ' page editors now usepsum as their defage editors now usepsum as their default model text, and a search for 'lorem ipsum' will un",
       picture: "./images/summer3.jpg",
     },
     {
@@ -23,11 +23,13 @@ export default function Cards() {
     },
   ];
   return (
-    <div className=" cards">
+    <div className="cards ">
       <h2>Les chantiers d’été, c’est quoi ?</h2>
-      <div className="row">
+      <div className="row g-4 ">
         {cardData.map((cardsInfo) => (
-          <Card key={cardsInfo.id} cardsInfo={cardsInfo} />
+          <div className="col">
+            <Card key={cardsInfo.id} cardsInfo={cardsInfo} />
+          </div>
         ))}
       </div>
     </div>

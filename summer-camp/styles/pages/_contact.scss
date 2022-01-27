@@ -1,10 +1,10 @@
 .contact {
   background-color: #90ccdb;
-  height: 100vh;
-  .header-pic {
-    background: url(../../public/images/summer3.jpg) center/cover;
-    height: 400px;
-    // padding-top: 200px;
+  padding-top: 10rem;
+
+  .contact-content {
+    background-color: white;
+    padding: 5rem;
   }
 
   .contact-form {

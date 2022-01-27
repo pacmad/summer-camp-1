@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeaderTitre() {
   return (
-    <div className="p-5 header-titre text-center shadow m-5 ">
+    <div className="p-5 header-titre text-center shadow ">
       <h1 className="display-5">
         Chantier d'été Emmaüs Une Expérience intense qui a du sens!
       </h1>
