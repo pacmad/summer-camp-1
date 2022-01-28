@@ -7,11 +7,11 @@ export default function HeaderTitre() {
         Chantier d'été Emmaüs Une Expérience intense qui a du sens!
       </h1>
       <p>Ensemble, vivez une expérience collective et solidaire forte !</p>
-      <a href="#" className="btn btn-primary text-light m-1">
-        Décourvir le chanier d'été <i class="fas fa-angle-right"></i>
+      <a href="#" className="btn btn-primary text-light m-1 hvr-icon-forward">
+        Décourvir le chanier d'été <i class="fas fa-angle-right hvr-icon"></i>
       </a>
-      <a href="#" className="btn btn-secondary m-1">
-        Inscription <i class="fas fa-angle-right"></i>
+      <a href="#" className="btn btn-secondary m-1 hvr-icon-forward">
+        Inscription <i class="fas fa-angle-right hvr-icon"></i>
       </a>
     </div>
   );

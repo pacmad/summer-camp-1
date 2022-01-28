@@ -7,7 +7,7 @@ export default function Navigation() {
       <nav className="navbar navbar-expand-lg fixed-top navbar-dark  ">
         <div className="container ">
           <Link className="navbar-brand " href="/">
-            Emmaüs
+            Chantier d'été Emmaüs
           </Link>
           <button
             className="navbar-toggler"
@@ -34,7 +34,7 @@ export default function Navigation() {
                 <Link href="/contact">Contact</Link>
               </li>
               <li className="nav-item nav-link">
-                <Link href="/faq">Faq</Link>
+                <Link href="/about">À propo</Link>
               </li>
               <li className="nav-item nav-link">
                 <Link href="/register">Inscription</Link>

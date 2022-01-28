@@ -5,19 +5,19 @@ export default function Cards() {
   const cardData = [
     {
       id: 1,
-      titre: "un engagement",
+      titre: "Un engagement",
       info: "letters,content heras theirault mode model text, and a search for 'lorem ipsum' will un",
       picture: "./images/summer1.jpg",
     },
     {
       id: 2,
-      titre: "solidarite",
+      titre: "Un découverte",
       info: "letters, as ' page editors now usepsum as their defage editors now usepsum as their default model text, and a search for 'lorem ipsum' will un",
       picture: "./images/summer3.jpg",
     },
     {
       id: 3,
-      titre: "experiance",
+      titre: "Des rencotres",
       info: "letters, as opposngls and wm Ipsum as their default model text, and a search for 'lorem ipsum' will un",
       picture: "./images/summer4.jpg",
     },

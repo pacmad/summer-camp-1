@@ -3,7 +3,7 @@ import React from "react";
 export default function Tabs() {
   return (
     <div className="tabs">
-      <h2>Comment ça se passe ?</h2>
+      <h2>DE QUOI A-T-ON BESOIN POUR S’INSCRIRE ?</h2>
       <div class="d-flex align-items-start bg-info  rounded  p-5 shadow ">
         <div
           className="nav flex-column nav-pills me-3 pe-3 border-end border-primary  "
