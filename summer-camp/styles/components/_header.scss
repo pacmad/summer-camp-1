@@ -1,7 +1,7 @@
 .header {
   background: url(../../public/images/summer2.jpg) center/cover;
   filter: brightness(0.9) grayscale(0.42);
-  height: 50rem;
+  height: 800px;
   padding: 8rem 0;
 
   .header-titre {
@@ -13,44 +13,14 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: 60%;
     margin: auto;
+  }
+}
 
-    h1 {
-      color: transparent;
-      -webkit-background-clip: text;
-
-      background-image: linear-gradient(
-        255deg,
-        #99eaef 0%,
-        #14acce 35%,
-        #a560b7 60%,
-        #e67599 70%
-      );
-    }
-    /* Icon Forward */
-    .hvr-icon-forward {
-      display: inline-block;
-      vertical-align: middle;
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.1s;
-      transition-duration: 0.1s;
-    }
-    .hvr-icon-forward .hvr-icon {
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      -webkit-transition-duration: 0.1s;
-      transition-duration: 0.1s;
-      -webkit-transition-property: transform;
-      transition-property: transform;
-      -webkit-transition-timing-function: ease-out;
-      transition-timing-function: ease-out;
-    }
-    .hvr-icon-forward:hover .hvr-icon,
-    .hvr-icon-forward:focus .hvr-icon,
-    .hvr-icon-forward:active .hvr-icon {
-      -webkit-transform: translateX(4px);
-      transform: translateX(4px);
-    }
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  .header {
+    padding: 5rem 0;
   }
 }

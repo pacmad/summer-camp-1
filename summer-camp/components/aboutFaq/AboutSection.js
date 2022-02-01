@@ -2,9 +2,9 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <div className="about-section">
+    <div className="about-section container rounded">
       {/* SECTION 1 */}
-      <h1>Qui sommes nous ?</h1>
+      <h1>À propo de chantier d'été</h1>
       <p>On est en droit de se poser la question…</p>
       <div className="section-1">
         <div className="row">
@@ -30,15 +30,17 @@ export default function AboutSection() {
       </div>
       {/* SECTION 2 */}
       <div className="section-2 text-center">
-        <h2 className="display-2">BON.</h2>
+        <h2>BON.</h2>
+        <h5>On reprend tout depuis le début, et on va le faire simple.</h5>
         <p>
-          On reprend tout depuis le début, et on va le faire simple, C'est en
-          dce sens que cette école est unisue.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          quas, reprehenderit ipsa dignissimos corrupti nisi ipsam consectetur.
+          Eligendi, a nisi.
         </p>
         <img
-          className="img-fluid rounded shadow "
+          className="img-fluid rounded shadow mt-3 "
           src="../../images/emmaus2.jpg"
-          alt=""
+          alt="chantier-ete-emmaus"
         />
       </div>
       <h2>SI TOI AUSSI…</h2>

@@ -8,7 +8,7 @@ export default function Footer() {
     <div className="bg-primary">
       <div className="container">
         <div className="text-center pt-5 text-white">
-          <h1>Lorem ipsum, t. Vitae, sit!</h1>
+          <h2 className="text-light">Lorem ipsum, t. Vitae, sit!</h2>
           <h4>Lorem, ipsum.</h4>
         </div>
         <NewsletterForm />

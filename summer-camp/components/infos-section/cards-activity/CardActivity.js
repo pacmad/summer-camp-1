@@ -10,7 +10,7 @@ const CardActivity = ({ cardItem }) => {
           <p>{cardItem.info}</p>
         </div>
         <a className="btn btn-primary text-light" href="">
-          More info <i class="fas fa-angle-right"></i>
+          More info <i class="fas fa-external-link-alt"></i>
         </a>
       </div>
     </div>

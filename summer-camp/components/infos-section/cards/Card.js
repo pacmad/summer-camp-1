@@ -1,6 +1,6 @@
 const Card = ({ cardsInfo }) => {
   return (
-    <div className="card h-100 shadow ">
+    <div className="card h-100 shadow  ">
       <img class="card-img-top " src={cardsInfo.picture} alt="solidarite" />
       <div className="card-body">
         <h4>{cardsInfo.titre}</h4>

@@ -1,14 +1,21 @@
 .about-section {
+  margin-top: -150px;
   margin-bottom: 5rem;
-  h1 {
-    color: #c5d8c8;
-  }
+  background-color: #ffffff;
+  padding: 5rem 5rem 10rem 5rem;
+
   .section-1 {
     margin: 5rem auto;
   }
   .section-2 {
     margin: 10rem auto;
+
+    h2 {
+      font-size: 3.52rem;
+      font-weight: 700;
+    }
   }
+
   .cta {
     position: relative;
     margin: auto;

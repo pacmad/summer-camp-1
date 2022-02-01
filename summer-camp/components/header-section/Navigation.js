@@ -6,8 +6,14 @@ export default function Navigation() {
     <div className="navigation  ">
       <nav className="navbar navbar-expand-lg fixed-top navbar-dark  ">
         <div className="container ">
-          <Link className="navbar-brand " href="/">
-            Chantier d'été Emmaüs
+          <Link className="navbar-brand" href="/">
+            <a>
+              <img
+                src="../../images/logo-emmaus.png"
+                alt="logo-emmaus"
+                height="50"
+              />
+            </a>
           </Link>
           <button
             className="navbar-toggler"

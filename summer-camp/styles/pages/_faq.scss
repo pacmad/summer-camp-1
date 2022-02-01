@@ -1,17 +1,8 @@
 .faq {
   background-color: #c5d8c8;
-  padding-top: 10rem;
 
-  .question-section {
-    margin: 4rem auto;
-  }
-
-  .faq-content {
-    background-color: #ffffff;
-    padding: 5rem;
-  }
-
-  .faq-1 {
-    background-color: #c5d8c8;
+  .photo-header {
+    background: url(../../public/images/strasbourg.jpg) center/cover;
+    height: 300px;
   }
 }

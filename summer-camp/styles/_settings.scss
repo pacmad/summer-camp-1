@@ -19,3 +19,25 @@ $theme-colors: (
   "light": $light,
   "info": $info,
 );
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 3.52rem;
+}
+
+h1,
+h2 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(
+    255deg,
+    #99eaef 0%,
+    #14acce 35%,
+    #a560b7 60%,
+    #e67599 70%
+  );
+}

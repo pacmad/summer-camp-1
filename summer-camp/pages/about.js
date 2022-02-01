@@ -6,11 +6,10 @@ import Layout from "../components/Layout";
 export default function faq() {
   return (
     <Layout page="FAQ">
-      <div className="faq">
-        <div className="faq-content container rounded">
-          <AboutSection />
-          <FaqSection />
-        </div>
+      <div className="faq ">
+        <div className="photo-header"></div>
+        <AboutSection />
+        <FaqSection />
       </div>
     </Layout>
   );

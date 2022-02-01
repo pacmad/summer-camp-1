@@ -1,9 +1,14 @@
 .register {
   background-color: #b9e5ff;
-  padding-top: 10rem;
+
+  .photo-header {
+    background-image: url(../../public/images/summer6.jpg);
+    height: 300px;
+  }
 
   .register-content {
     background-color: #ffffff;
+    margin-top: -150px;
     padding: 5rem;
   }
 }
