@@ -28,6 +28,7 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
+
       {/* SECTION 2 */}
       <div className="section-2 text-center">
         <h2>BON.</h2>

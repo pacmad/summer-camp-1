@@ -8,7 +8,7 @@ export default function HeaderTitre() {
       <a href="#" className="btn btn-primary text-light m-1 hvr-icon-forward">
         Décourvir le chanier d'été <i class="fas fa-angle-right hvr-icon"></i>
       </a>
-      <a href="#" className="btn btn-secondary m-1 ">
+      <a href="/register" className="btn btn-secondary m-1 ">
         Inscription <i class="fas fa-angle-right "></i>
       </a>
     </div>

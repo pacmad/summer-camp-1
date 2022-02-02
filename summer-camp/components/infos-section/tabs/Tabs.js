@@ -21,7 +21,7 @@ export default function Tabs() {
             aria-controls="v-pills-home"
             aria-selected="true"
           >
-            When ?
+            Quand
           </button>
           <button
             className="nav-link text-end"
@@ -33,7 +33,7 @@ export default function Tabs() {
             aria-controls="v-pills-profile"
             aria-selected="false"
           >
-            Accommodation
+            Hébergement
           </button>
           <button
             className="nav-link text-end"
@@ -45,7 +45,7 @@ export default function Tabs() {
             aria-controls="v-pills-messages"
             aria-selected="false"
           >
-            Meals
+            Repas
           </button>
           <button
             className="nav-link text-end"
@@ -57,7 +57,7 @@ export default function Tabs() {
             aria-controls="v-pills-settings"
             aria-selected="false"
           >
-            Travel
+            Trasport
           </button>
         </div>
         <div className="tab-content " id="v-pills-tabContent">
