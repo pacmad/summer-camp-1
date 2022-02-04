@@ -1,6 +1,6 @@
 import Header from "../components/header-section/Header";
 import Navigation from "../components/header-section/Navigation";
-import CardsActivity from "../components/infos-section/cards-activity/CardsActivity";
+import CardActivity from "../components/infos-section/cards-activity/CardActivity";
 import Cards from "../components/infos-section/cards/Cards";
 import Tabs from "../components/infos-section/tabs/Tabs";
 import Layout from "../components/Layout";
@@ -13,7 +13,7 @@ export default function Home() {
       <div className="container">
         <Cards />
         <Tabs />
-        <CardsActivity />
+        <CardActivity />
       </div>
     </Layout>
   );

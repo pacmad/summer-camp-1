@@ -17,19 +17,17 @@ export default function Cards() {
     },
     {
       id: 3,
-      titre: "Des rencotres",
+      titre: "Des rencontres",
       info: "letters, as opposngls and wm Ipsum as their default model text, and a search for 'lorem ipsum' will un",
       picture: "./images/summer4.jpg",
     },
   ];
   return (
-    <div className="cards ">
-      <h2>Les chantiers d’été, c’est quoi ?</h2>
-      <div className="row g-4 ">
+    <div className="my-5">
+      <h2>Chantier d'été c'est quoi ?</h2>
+      <div className="row">
         {cardData.map((cardsInfo) => (
-          <div className="col">
-            <Card key={cardsInfo.id} cardsInfo={cardsInfo} />
-          </div>
+          <Card key={cardsInfo.id} cardsInfo={cardsInfo} />
         ))}
       </div>
     </div>

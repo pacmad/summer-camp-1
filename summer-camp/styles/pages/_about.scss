@@ -1,0 +1,16 @@
+.about {
+  background-color: #c5d8c8ab;
+  .photo-header {
+    background: url(../../public/images/communaute-emmaus.jpg) center/cover;
+    height: 400px;
+  }
+
+  .about-p::after {
+    content: "";
+    background: #d8709f;
+    display: block;
+    height: 0.2em;
+    width: 6em;
+    margin: 2em 0;
+  }
+}

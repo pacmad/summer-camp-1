@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Navigation() {
   return (
-    <div className="navigation  ">
-      <nav className="navbar navbar-expand-lg fixed-top navbar-dark  ">
-        <div className="container ">
+    <div className="navigation">
+      <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div className="container">
           <Link className="navbar-brand" href="/">
             <a>
               <img
@@ -37,10 +37,10 @@ export default function Navigation() {
                 </Link>
               </li>
               <li className="nav-item nav-link">
-                {/* <Link href="/contact">Contact</Link> */}
+                <Link href="/contact">Contact</Link>
               </li>
               <li className="nav-item nav-link">
-                <Link href="/about">À propo</Link>
+                <Link href="/about">À propos</Link>
               </li>
               <li className="nav-item nav-link">
                 <Link href="/register">Inscription</Link>
