@@ -14,15 +14,15 @@ export default function AboutSection() {
               d’esprit, on repassera.
             </h4>
             <p>
-              L’histoire d’Emmaüs En 1949, Henri Groues dit l’abbé Pierre,
-              restaure une maison dans laquelle il vivait. Cette maison, lieu de
-              rencontres, devient une auberge de jeunesse internationale qu’il
-              baptise « Emmaüs ». Le mouvement Emmaüs naît de cette initiative
-              dont le but est « d’agir pour que chaque homme, chaque société,
-              chaque nation puisse vivre, s’affirmer et s’accomplir dans
-              l’échange et le partage, ainsi que dans une égale dignité ».
-              L’association Emmaüs est créée en 1953 pour organiser et
-              développer ce mouvement. Après les ravages de la guerre de
+              Emmaüs France ?? L’histoire d’Emmaüs En 1949, Henri Groues dit
+              l’abbé Pierre, restaure une maison dans laquelle il vivait. Cette
+              maison, lieu de rencontres, devient une auberge de jeunesse
+              internationale qu’il baptise « Emmaüs ». Le mouvement Emmaüs naît
+              de cette initiative dont le but est « d’agir pour que chaque
+              homme, chaque société, chaque nation puisse vivre, s’affirmer et
+              s’accomplir dans l’échange et le partage, ainsi que dans une égale
+              dignité ». L’association Emmaüs est créée en 1953 pour organiser
+              et développer ce mouvement. Après les ravages de la guerre de
               1939-45, les rigueurs de l’hiver 1954 tuent. Dans ce contexte de
               grave pénurie de logements, l’abbé Pierre lance son célèbre appel,
               « Mes amis, au secours » ; il déclenche « l’insurrection de la

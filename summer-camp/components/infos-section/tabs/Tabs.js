@@ -60,7 +60,7 @@ export default function Tabs() {
             Trasport
           </button>
         </div>
-        <div className="tab-content " id="v-pills-tabContent">
+        <div className="tab-content text-primary" id="v-pills-tabContent">
           <div
             class="tab-pane fade show active"
             id="v-pills-home"
