@@ -1,5 +1,4 @@
 import Header from "../components/header-section/Header";
-import Navigation from "../components/header-section/Navigation";
 import CardActivity from "../components/infos-section/cards-activity/CardActivity";
 import Cards from "../components/infos-section/cards/Cards";
 import Tabs from "../components/infos-section/tabs/Tabs";
