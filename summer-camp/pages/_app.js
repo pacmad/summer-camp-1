@@ -1,3 +1,4 @@
+import { NextIntlProvider } from "next-intl";
 import Head from "next/head";
 import Script from "next/script";
 import "../styles/globals.css";
@@ -24,7 +25,9 @@ function MyApp({ Component, pageProps }) {
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"
       ></script>
-      <Component {...pageProps} />
+      <NextIntlProvider messages={pageProps.messages}>
+        <Component {...pageProps} />
+      </NextIntlProvider>
     </div>
   );
 }

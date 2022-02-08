@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function HeaderTitre() {
+export default function HeaderTitre({ t }) {
   return (
     <div className="p-5 header-titre text-center shadow ">
-      <h1>Chantier d'été Emmaüs Une Expérience intense qui a du sens!</h1>
+      <h1>{t("title")}</h1>
       <p>Ensemble, vivez une expérience collective et solidaire forte !</p>
       <a href="#" className="btn btn-primary text-light m-1 hvr-icon-forward">
         Décourvir le chanier d'été <i class="fas fa-angle-right hvr-icon"></i>

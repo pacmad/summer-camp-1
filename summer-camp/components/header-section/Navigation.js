@@ -1,7 +1,9 @@
 import React from "react";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Navigation() {
+  let router = useRouter();
   return (
     <div className="navigation">
       <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
@@ -45,6 +47,15 @@ export default function Navigation() {
               <li className="nav-item nav-link">
                 <Link href="/register">Inscription</Link>
               </li>
+            </ul>
+            <ul className="navbar-nav">
+              {router.locales.map((locale) => (
+                <li key={locale} className="nav-item nav-link">
+                  <Link href={router.asPath} locale={locale}>
+                    <a>{locale}</a>
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
