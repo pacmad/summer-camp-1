@@ -13,7 +13,7 @@ export default function Cards() {
       id: 2,
       titre: "Un découverte",
       info: "letters, as ' page editors now usepsum as their defage editors now usepsum as their default model text, and a search for 'lorem ipsum' will un",
-      picture: "./images/summer3.jpg",
+      picture: "./images/emmaus8.jpg",
     },
     {
       id: 3,

@@ -21,7 +21,7 @@ export default function CardsWork() {
       id: 3,
       titre: "La vie Communauté",
       info: "letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will un",
-      picture: "./images/communaute-emmaus.jpg",
+      picture: "./images/emmaus9.jpg",
       site: "https://www.visit.alsace",
     },
 

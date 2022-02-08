@@ -72,8 +72,8 @@ export default function AboutSection() {
         <h5>Une Expérience intense qui a du sens!</h5>
         <p>En fait, on aurait dû commencer par là…</p>
         <img
-          className="img-fluid rounded shadow mt-3 w-50 "
-          src="../../images/emmaus2.jpg"
+          className="img-fluid rounded shadow mt-3 w-75 "
+          src="../../images/emmaus9.jpg"
           alt="chantier-ete-emmaus"
         />
       </div>
