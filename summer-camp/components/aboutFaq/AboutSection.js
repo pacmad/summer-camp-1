@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function AboutSection() {
+export default function AboutSection({ t }) {
   return (
     <div className="about-section container rounded">
       {/* SECTION 1 */}
-      <h1>À propos de chantier d'été</h1>
-      <p className="about-p">On est en droit de se poser la question…</p>
+      <h1> {t("title")}</h1>
+      <p className="subtitle">On est en droit de se poser la question…</p>
       <div className="section-1">
         <div className="row">
           <div className="col-md-7">

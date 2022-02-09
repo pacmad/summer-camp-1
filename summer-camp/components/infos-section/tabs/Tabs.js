@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Tabs() {
+export default function Tabs({ t }) {
   return (
     <div className="tabs">
-      <h2>DE QUOI A-T-ON BESOIN POUR S’INSCRIRE ?</h2>
+      <h2>{t("title-3")}</h2>
       <div class="d-flex align-items-start bg-info  rounded  p-5 shadow ">
         <div
           className="nav flex-column nav-pills me-3 pe-3 border-end border-primary  "
@@ -21,7 +21,7 @@ export default function Tabs() {
             aria-controls="v-pills-home"
             aria-selected="true"
           >
-            Quand
+            {t("quand")}
           </button>
           <button
             className="nav-link text-end"
@@ -33,7 +33,7 @@ export default function Tabs() {
             aria-controls="v-pills-profile"
             aria-selected="false"
           >
-            Hébergement
+            {t("hebergement")}
           </button>
           <button
             className="nav-link text-end"
@@ -45,7 +45,7 @@ export default function Tabs() {
             aria-controls="v-pills-messages"
             aria-selected="false"
           >
-            Repas
+            {t("repas")}
           </button>
           <button
             className="nav-link text-end"

@@ -2,10 +2,29 @@
   "home": {
     "title": "Chantier d'été Emmaüs Une Expérience intense qui a du sens!",
     "subtitle": "Ensemble, vivez une expérience collective et solidaire forte !",
-    "cta-button1": "Découvrir le chantier d'été",
-    "cta-button2": "Inscription",
+    "cta-btn1": "Découvrir le chantier d'été",
+    "cta-btn2": "Inscription",
     "title-2": "Chantier d'été c'est quoi ?",
     "title-3": "De quoi a-t-on besoin pour s'inscrire ?",
-    "title-4": "Les Activités"
+    "title-4": "Les Activités",
+    "travail": "Travail",
+    "loisir": "Loisir",
+    "quand": "Quand",
+    "hebergement": "Hébergement",
+    "repas": "Repas"
+  },
+
+  "layout": {
+    "accueil": "Accueil",
+    "à propos": "À propos",
+    "inscription": "Inscription"
+  },
+
+  "about": {
+    "title": "À propos de chantier d'été"
+  },
+
+  "register": {
+    "title": "Inscription"
   }
 }

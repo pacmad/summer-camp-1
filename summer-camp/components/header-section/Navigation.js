@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-export default function Navigation() {
+export default function Navigation({ t }) {
   let router = useRouter();
   return (
     <div className="navigation">
@@ -35,17 +35,14 @@ export default function Navigation() {
             <ul className="navbar-nav m-auto mb-2 mb-lg-0 ">
               <li className="nav-item nav-link ">
                 <Link className="active" aria-current="page" href="/">
-                  Accueil
+                  {t("accueil")}
                 </Link>
               </li>
               <li className="nav-item nav-link">
-                <Link href="/contact">Contact</Link>
+                <Link href="/about">{t("à propos")}</Link>
               </li>
               <li className="nav-item nav-link">
-                <Link href="/about">À propos</Link>
-              </li>
-              <li className="nav-item nav-link">
-                <Link href="/register">Inscription</Link>
+                <Link href="/register">{t("inscription")}</Link>
               </li>
             </ul>
             <ul className="navbar-nav">

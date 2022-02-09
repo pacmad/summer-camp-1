@@ -2,10 +2,10 @@ import React from "react";
 import CardsLoisir from "./CardsLoisir";
 import CardsWork from "./CardsWork";
 
-export default function CardActivity() {
+export default function CardActivity({ t }) {
   return (
     <div>
-      <h2>Les Activités</h2>
+      <h2>{t("title-4")}</h2>
       <p>Lorem ipsum dolor sit amet.</p>
       <ul
         className="nav nav-tabs justify-content-center mb-3  "
@@ -23,7 +23,7 @@ export default function CardActivity() {
             aria-controls="pills-home"
             aria-selected="true"
           >
-            Travail
+            {t("travail")}
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -37,7 +37,7 @@ export default function CardActivity() {
             aria-controls="pills-profile"
             aria-selected="false"
           >
-            Loisir
+            {t("loisir")}
           </button>
         </li>
       </ul>

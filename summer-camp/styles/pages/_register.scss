@@ -11,4 +11,13 @@
     margin-top: -150px;
     padding: 5rem;
   }
+
+  .subtitle::after {
+    content: "";
+    background: #d8709f;
+    display: block;
+    height: 0.2em;
+    width: 6em;
+    margin: 2em 0;
+  }
 }

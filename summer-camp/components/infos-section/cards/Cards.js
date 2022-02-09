@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-export default function Cards() {
+export default function Cards({ t }) {
   const cardData = [
     {
       id: 1,
@@ -24,7 +24,7 @@ export default function Cards() {
   ];
   return (
     <div className="my-5">
-      <h2>Chantier d'été c'est quoi ?</h2>
+      <h2>{t("title-2")}</h2>
       <div className="row">
         {cardData.map((cardsInfo) => (
           <Card key={cardsInfo.id} cardsInfo={cardsInfo} />

@@ -1,15 +1,18 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { useTranslations } from "next-intl";
 
 export default function register() {
+  const t = useTranslations("register");
+
   return (
     <Layout page="Register">
       <div className="register">
         <div className="photo-header"></div>
 
         <div className="register-content container rounded">
-          <h1>Inscription</h1>
-          <p>
+          <h1>{t("title")}</h1>
+          <p className="subtitle">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
             voluptatum suscipit officiis cum libero labore rem enim ipsa
             quisquam dignissimos, ullam, ore harum.
@@ -162,4 +165,15 @@ export default function register() {
       </div>
     </Layout>
   );
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      // You can get the messages from anywhere you like. The recommended
+      // pattern is to put them in JSON files separated by language and read
+      // the desired one based on the `locale` received from Next.js.
+      messages: (await import(`../lang/${locale}.json`)).default,
+    },
+  };
 }
