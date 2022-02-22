@@ -10,7 +10,7 @@ export default function Home() {
   const t = useTranslations("home");
 
   return (
-    <Layout page="Summer camp - Home">
+    <Layout page="Summer camp - Accueil">
       <Header t={t} />
       <div className="container">
         <Cards t={t} />

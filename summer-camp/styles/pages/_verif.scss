@@ -1,0 +1,23 @@
+.verif {
+  background-color: #b9e5ff;
+
+  .photo-header {
+    background: url(../../public/images/emmaus9.jpg) center/cover;
+    height: 400px;
+  }
+
+  .approach-content {
+    background-color: #ffffff;
+    margin-top: -150px;
+    padding: 5rem;
+  }
+
+  .subtitle::after {
+    content: "";
+    background: #d8709f;
+    display: block;
+    height: 0.2em;
+    width: 6em;
+    margin: 2em 0;
+  }
+}

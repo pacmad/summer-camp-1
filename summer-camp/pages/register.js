@@ -160,6 +160,9 @@ export default function register() {
                 <input type="text" className="form-control" id="inputCountry" />
               </div>
             </div>
+            <button type="submit" class="btn btn-primary text-light mt-3">
+              Submit
+            </button>
           </form>
         </div>
       </div>
