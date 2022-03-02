@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-export default function approach() {
+export default function application() {
   return (
     <Layout page="Application">
       <div>

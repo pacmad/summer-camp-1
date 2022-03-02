@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 export default function verif() {
   return (
-    <Layout page="Application">
+    <Layout page="Thank you !">
       <div className="verif">
         <div className="photo-header"></div>
         <div className="approach-content container rounded">
