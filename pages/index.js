@@ -1,10 +1,10 @@
 import Header from "../components/header-section/Header";
 import CardActivity from "../components/infos-section/cards-activity/CardActivity";
-import Cards from "../components/infos-section/cards/Cards";
 import Tabs from "../components/infos-section/tabs/Tabs";
 import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
 import { useTranslations } from "next-intl";
+import CardsInfo from "../components/infos-section/cards/CardsInfo";
 
 export default function Home() {
   const t = useTranslations("home");
@@ -13,7 +13,7 @@ export default function Home() {
     <Layout page="Summer camp - Accueil">
       <Header t={t} />
       <div className="container">
-        <Cards t={t} />
+        <CardsInfo t={t} />
         <Tabs t={t} />
         <CardActivity t={t} />
       </div>

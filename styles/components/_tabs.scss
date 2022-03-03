@@ -1,3 +1,13 @@
 .tabs {
-  margin: 10rem auto;
+  margin: 5rem auto;
+
+  .nav {
+    border-right: 1px solid $primary;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .nav {
+      border: 0;
+    }
+  }
 }

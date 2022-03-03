@@ -4,15 +4,15 @@ export default function Tabs({ t }) {
   return (
     <div className="tabs">
       <h2>{t("title-3")}</h2>
-      <div class="d-flex align-items-start bg-info  rounded  p-5 shadow ">
+      <div className="d-md-flex bg-info rounded p-5 shadow">
         <div
-          className="nav flex-column nav-pills me-3 pe-3 border-end border-primary  "
+          className="nav flex-md-column nav-pills me-3 pe-3"
           id="v-pills-tab"
           role="tablist"
           aria-orientation="vertical"
         >
           <button
-            className="nav-link  text-end active "
+            className="nav-link text-end active "
             id="v-pills-home-tab"
             data-bs-toggle="pill"
             data-bs-target="#v-pills-home"
@@ -60,9 +60,9 @@ export default function Tabs({ t }) {
             Trasport
           </button>
         </div>
-        <div className="tab-content text-primary" id="v-pills-tabContent">
+        <div className="tab-content text-primary mt-3" id="v-pills-tabContent">
           <div
-            class="tab-pane fade show active"
+            className="tab-pane fade show active"
             id="v-pills-home"
             role="tabpanel"
             aria-labelledby="v-pills-home-tab"

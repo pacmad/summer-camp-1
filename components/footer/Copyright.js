@@ -2,9 +2,13 @@ import React from "react";
 
 export default function Copyright() {
   return (
-    <div>
-      <div class="text-center p-4">
-        <em>Emmaüs Scherwiller ©2022 | MENTIONS LÉGALES</em>
+    <div className="copyright">
+      <div className="row mt-5">
+        <div className="col">
+          <p className="pt-3">
+            <small>Emmaüs Scherwiller © 2021. All Rights Reserved.</small>
+          </p>
+        </div>
       </div>
     </div>
   );
