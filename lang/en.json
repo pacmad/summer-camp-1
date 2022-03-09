@@ -5,13 +5,19 @@
     "cta-btn1": "Know more about summer camp",
     "cta-btn2": "Registration",
     "title-2": "What is summer camp?",
-    "title-3": "What do we need to register?",
+    "title-3": "How to register ?",
     "title-4": "Activities",
     "travail": "Work",
     "loisir": "Hobbies",
     "quand": "When",
     "hebergement": "Accommodation",
-    "repas": "Meal"
+    "repas": "Meal",
+    "engagement": "Engagement",
+    "engagement-content": "letters,content heras theirault mode model text, and a search for 'lorem ipsum' will un",
+    "decouverte": "A discovery",
+    "decouverte-content": "letters,content heras theirault mode model text, and a search for 'lorem ipsum' will un",
+    "rencontres": "Meetings",
+    "rencontres-content": "letters,content heras theirault mode model text, and a search for 'lorem ipsum' will un"
   },
 
   "layout": {

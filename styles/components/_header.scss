@@ -1,5 +1,7 @@
 .header {
-  background: url(../../public/images/summer2.jpg) center/cover;
+  background: url(../../public/images/summer2.jpg);
+  background-position: center;
+  background-size: cover;
   filter: brightness(0.9) grayscale(0.42);
   height: 800px;
   padding: 8rem 0;

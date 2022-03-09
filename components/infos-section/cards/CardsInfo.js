@@ -5,6 +5,7 @@ export default function CardsInfo({ t }) {
     <div className="my-5">
       <div className="row">
         <h2>{t("title-2")}</h2>
+        <p>Une mission au coeur de l'écosystème solidaire d'Emmaüs !</p>
         <div className="col-md-4 my-3">
           <div className="card shadow h-100">
             <img

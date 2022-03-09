@@ -13,48 +13,60 @@ export default function Tabs({ t }) {
         >
           <button
             className="nav-link text-end active "
-            id="v-pills-home-tab"
+            id="v-pills-when-tab"
             data-bs-toggle="pill"
-            data-bs-target="#v-pills-home"
+            data-bs-target="#v-pills-when"
             type="button"
             role="tab"
-            aria-controls="v-pills-home"
+            aria-controls="v-pills-when"
             aria-selected="true"
           >
             {t("quand")}
           </button>
           <button
             className="nav-link text-end"
-            id="v-pills-profile-tab"
+            id="v-pills-where-tab"
             data-bs-toggle="pill"
-            data-bs-target="#v-pills-profile"
+            data-bs-target="#v-pills-where"
             type="button"
             role="tab"
-            aria-controls="v-pills-profile"
+            aria-controls="v-pills-where"
+            aria-selected="true"
+          >
+            Où
+          </button>
+          <button
+            className="nav-link text-end"
+            id="v-pills-stay-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#v-pills-stay"
+            type="button"
+            role="tab"
+            aria-controls="v-pills-stay"
             aria-selected="false"
           >
             {t("hebergement")}
           </button>
           <button
             className="nav-link text-end"
-            id="v-pills-messages-tab"
+            id="v-pills-meal-tab"
             data-bs-toggle="pill"
-            data-bs-target="#v-pills-messages"
+            data-bs-target="#v-pills-meal"
             type="button"
             role="tab"
-            aria-controls="v-pills-messages"
+            aria-controls="v-pills-meal"
             aria-selected="false"
           >
             {t("repas")}
           </button>
           <button
             className="nav-link text-end"
-            id="v-pills-settings-tab"
+            id="v-pills-transport-tab"
             data-bs-toggle="pill"
-            data-bs-target="#v-pills-settings"
+            data-bs-target="#v-pills-transport"
             type="button"
             role="tab"
-            aria-controls="v-pills-settings"
+            aria-controls="v-pills-transport"
             aria-selected="false"
           >
             Trasport
@@ -63,17 +75,25 @@ export default function Tabs({ t }) {
         <div className="tab-content text-primary mt-3" id="v-pills-tabContent">
           <div
             className="tab-pane fade show active"
-            id="v-pills-home"
+            id="v-pills-when"
             role="tabpanel"
-            aria-labelledby="v-pills-home-tab"
+            aria-labelledby="v-pills-when-tab"
           >
             <p>At least one week between June 15th to September 15th</p>
           </div>
           <div
-            className="tab-pane fade"
-            id="v-pills-profile"
+            className="tab-pane fade show"
+            id="v-pills-where"
             role="tabpanel"
-            aria-labelledby="v-pills-profile-tab"
+            aria-labelledby="v-pills-where-tab"
+          >
+            <p>Scherwiller</p>
+          </div>
+          <div
+            className="tab-pane fade"
+            id="v-pills-stay"
+            role="tabpanel"
+            aria-labelledby="v-pills-stay-tab"
           >
             <p>
               Accommodation Mostly all solidarity workcamps will proposed you an
@@ -84,9 +104,9 @@ export default function Tabs({ t }) {
           </div>
           <div
             className="tab-pane fade"
-            id="v-pills-messages"
+            id="v-pills-meal"
             role="tabpanel"
-            aria-labelledby="v-pills-messages-tab"
+            aria-labelledby="v-pills-meal-tab"
           >
             <p>
               You will share the meals offered with the people hosted in Emmaus,
@@ -96,9 +116,9 @@ export default function Tabs({ t }) {
           </div>
           <div
             className="tab-pane fade"
-            id="v-pills-settings"
+            id="v-pills-transport"
             role="tabpanel"
-            aria-labelledby="v-pills-settings-tab"
+            aria-labelledby="v-pills-transport-tab"
           >
             <p>
               You will have to bear all the costs linked to your travel to the
