@@ -32,5 +32,9 @@
 
   "register": {
     "title": "Inscription"
+  },
+
+  "LocaleSwitcher": {
+    "switchLocale": "English"
   }
 }

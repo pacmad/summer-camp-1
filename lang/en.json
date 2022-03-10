@@ -32,5 +32,8 @@
 
   "register": {
     "title": "Registration"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "français"
   }
 }

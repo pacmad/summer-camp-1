@@ -1,21 +1,25 @@
 export default function Links() {
   return (
     <div>
-      <footer className="text-center text-lg-start ">
+      <footer className="link">
         <section>
-          <div className="container text-center text-md-start mt-5">
-            <div className="row mt-3">
-              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <div className="container text-center pt-5">
+            <div className="row">
+              <div className="col-md my-3">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3"></i>Emmaüs Scherwiller
+                  Emmaüs Scherwiller
                 </h6>
-                <p>6 Place Abbé Pierre 67750 Scherwiller</p>
+                <p>
+                  6 Place Abbé Pierre<br></br> 67750 Scherwiller
+                </p>
+                <p>info@exemple.fr</p>
+                <p>+33 236 325 88</p>
               </div>
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md my-3">
                 <h6 className="text-uppercase fw-bold mb-4">Liens rapides</h6>
                 <p>
-                  <a href="#!" className="text-reset">
+                  <a href="#" className="text-reset">
                     Mentions Légales
                   </a>
                 </p>
@@ -36,16 +40,16 @@ export default function Links() {
                 </p>
               </div>
 
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md my-3">
                 <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
                 <p>
                   <a href="#!" className="text-reset">
-                    Pricing
+                    emmaus-scherwiller.fr
                   </a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">
-                    Settings
+                    emmaus-etikette.fr
                   </a>
                 </p>
                 <p>
@@ -58,25 +62,6 @@ export default function Links() {
                     Help
                   </a>
                 </p>
-              </div>
-
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                <p>
-                  <i className="fas fa-home me-3"></i> 6 Place Abbé Pierre{" "}
-                  <br></br>
-                  677750 Scherwiller
-                </p>
-                <p>
-                  <i className="fas fa-envelope me-3"></i>
-                  info@example.com
-                </p>
-                <p>
-                  <i className="fas fa-phone me-3"></i> + 33 234 567 88
-                </p>
-                {/* <p>
-                  <i className="fas fa-print me-3"></i> + 33 234 567 89
-                </p> */}
               </div>
             </div>
           </div>

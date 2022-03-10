@@ -79,7 +79,10 @@ export default function Tabs({ t }) {
             role="tabpanel"
             aria-labelledby="v-pills-when-tab"
           >
-            <p>At least one week between June 15th to September 15th</p>
+            <p>
+              1 semaine minimum et 2 semmaine maximum du 01 juin au 01
+              septembre.
+            </p>
           </div>
           <div
             className="tab-pane fade show"
@@ -95,12 +98,7 @@ export default function Tabs({ t }) {
             role="tabpanel"
             aria-labelledby="v-pills-stay-tab"
           >
-            <p>
-              Accommodation Mostly all solidarity workcamps will proposed you an
-              accommodation in a tent, mobile-home or in a collective room.
-              However, there are some solidarity workcamps that doesn’t proposed
-              accommodation. Those ones are mostly proposed to the local youth.
-            </p>
+            <p>Camping Scherwiller</p>
           </div>
           <div
             className="tab-pane fade"
@@ -108,11 +106,7 @@ export default function Tabs({ t }) {
             role="tabpanel"
             aria-labelledby="v-pills-meal-tab"
           >
-            <p>
-              You will share the meals offered with the people hosted in Emmaus,
-              the volunteers, the workers, and the other youths from the
-              solidarity workcamps.
-            </p>
+            <p>La communauté de Emmaüs</p>
           </div>
           <div
             className="tab-pane fade"
@@ -120,10 +114,7 @@ export default function Tabs({ t }) {
             role="tabpanel"
             aria-labelledby="v-pills-transport-tab"
           >
-            <p>
-              You will have to bear all the costs linked to your travel to the
-              Emmaus solidarity workcamp
-            </p>
+            <p>à ta charge</p>
           </div>
         </div>
       </div>

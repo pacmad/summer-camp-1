@@ -4,13 +4,7 @@ export default function FaqSection() {
   return (
     <div className="faq-section container rounded">
       <h1>FAQ</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit labore
-        fugit ipsa repudiandae laudantium placeat! Similique ratione autem
-        magnam veniam laudantium sapiente temporibus magni nihil accusantium.
-        Delectus dolore odit iure esse, non sapiente consequuntur, at aperiam
-        optio eveniet vel sed!
-      </p>
+      <p>On est en droit de se poser la question…</p>
       <div className="row question-section">
         <div className="col faq-1 shadow p-4 m-3  rounded">
           <h4>une question ?</h4>

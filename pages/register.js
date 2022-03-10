@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function register() {
   const t = useTranslations("register");
@@ -9,25 +10,36 @@ export default function register() {
     <Layout page="Register">
       <div className="register">
         <div className="photo-header"></div>
-
         <div className="register-content container rounded">
           <h1>{t("title")}</h1>
-          <p className="subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
-            voluptatum suscipit officiis cum libero labore rem enim ipsa
-            quisquam dignissimos, ullam, ore harum.
-          </p>
-          <img
-            className="img-fluid rounded shadow  m-3 w-50"
-            src="../../images/emmaus8.jpg"
-            alt="chantier-ete-emmaus"
-          />
+          <p className="subtitle">Je participe aux chantiers d'été Emmaüs</p>
+          <div className="row my-5">
+            <div className="col">
+              <p>
+                Participer à un chantier d'été, c'est faire du bénévolat, aux
+                côtés des acteurs Emmaüs, mais c'est aussi faire de belles
+                rencontres avec des personnes de tous horizons, découvrir le
+                fonctionnement d'une association Emmaüs, comprendre les enjeux
+                de l'économie sociale et solidaire et du réemploi, et vivre une
+                expérience unique !{" "}
+              </p>
+            </div>
+            <div className="col">
+              <Image
+                className="rounded  shadow "
+                src="/images/emmaus7.jpg"
+                alt="chantier-ete-emmaus"
+                width={500}
+                height={300}
+              />
+            </div>
+          </div>
           {/* form */}
           <form>
             <fieldset className="form-group">
               <div className="row">
                 <legend className="col-form-label col-sm-2 pt-0">
-                  You are :
+                  Je suis :
                 </legend>
                 <div className="col-sm-10">
                   <div class="form-check">
@@ -40,7 +52,7 @@ export default function register() {
                       checked
                     />
                     <label className="form-check-label" htmlFor="gridRadios1">
-                      A boy
+                      Un garçon
                     </label>
                   </div>
                   <div className="form-check">
@@ -52,7 +64,7 @@ export default function register() {
                       value="option2"
                     />
                     <label className="form-check-label" htmlFor="gridRadios2">
-                      A girl
+                      Une fille
                     </label>
                   </div>
                 </div>
@@ -62,7 +74,7 @@ export default function register() {
               {/* name */}
               <div className="col-md-6 mb-3">
                 <div className="form-group">
-                  <label htmlFor="name">Name</label>
+                  <label htmlFor="name">Nom</label>
                   <input
                     class="form-control"
                     type="text"
@@ -74,7 +86,7 @@ export default function register() {
               {/* Last name */}
               <div className="col-md-6 mb-3">
                 <div className="form-group">
-                  <label htmlFor="lastName">Last Name</label>
+                  <label htmlFor="lastName">Prénom</label>
                   <input
                     class="form-control"
                     type="text"
@@ -86,7 +98,7 @@ export default function register() {
               {/* date of birth */}
               <div className="col-md-6 mb-3">
                 <div className="form-group">
-                  <label htmlFor="birthday">Date of birth</label>
+                  <label htmlFor="birthday">Date de naissance</label>
                   <input
                     type="text"
                     id="birthday"
@@ -105,7 +117,7 @@ export default function register() {
               {/* phone */}
               <div className="col-md-6 mb-3">
                 <div className="form-group">
-                  <label htmlFor="phone">Phone Number</label>
+                  <label htmlFor="phone">N° tél</label>
                   <input
                     type="tel"
                     className="form-control"
@@ -141,7 +153,7 @@ export default function register() {
             <div className="row">
               {/* zip */}
               <div className="form-group col-md-6">
-                <label for="inputZip">Zip</label>
+                <label for="inputZip">Code postal</label>
                 <input
                   type="text"
                   className="form-control"
@@ -151,17 +163,17 @@ export default function register() {
               </div>
               {/* city */}
               <div className="form-group col-md-6 mb-3">
-                <label for="inputCity">City</label>
+                <label for="inputCity">Ville</label>
                 <input type="text" className="form-control" id="inputCity" />
               </div>
               {/* country */}
               <div className="form-group col-md-6">
-                <label for="inputCountry">Country</label>
+                <label for="inputCountry">Pays</label>
                 <input type="text" className="form-control" id="inputCountry" />
               </div>
             </div>
             <button type="submit" class="btn btn-primary text-light mt-3">
-              Submit
+              Envoyer
             </button>
           </form>
         </div>

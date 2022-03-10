@@ -6,7 +6,7 @@ export default function CardActivity({ t }) {
   return (
     <div>
       <h2>{t("title-4")}</h2>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <p>Engagement, expérience et découverte</p>
       <ul
         className="nav nav-tabs justify-content-center mb-3  "
         id="pills-tab"

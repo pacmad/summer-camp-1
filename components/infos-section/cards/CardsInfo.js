@@ -38,7 +38,7 @@ export default function CardsInfo({ t }) {
           <div className="card shadow h-100">
             <img
               className="card-img-top"
-              src="./images/summer4.jpg"
+              src="./images/emmaus4.jpg"
               alt="solidarite"
             />
             <div className="card-body">

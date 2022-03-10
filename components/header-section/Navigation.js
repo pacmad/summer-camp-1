@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Image from "next/image";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 export default function Navigation({ t }) {
   let router = useRouter();
@@ -10,10 +12,11 @@ export default function Navigation({ t }) {
         <div className="container">
           <Link className="navbar-brand" href="/">
             <a>
-              <img
-                src="../../images/logo-emmaus.png"
+              <Image
+                src="/images/logo-emmaus.png"
                 alt="logo-emmaus"
-                height="50"
+                width={200}
+                height={60}
               />
             </a>
           </Link>
@@ -45,7 +48,7 @@ export default function Navigation({ t }) {
                 <Link href="/register">{t("inscription")}</Link>
               </li>
             </ul>
-            <ul className="navbar-nav">
+            {/* <ul className="navbar-nav">
               {router.locales.map((locale) => (
                 <li key={locale} className="nav-item nav-link">
                   <Link href={router.asPath} locale={locale}>
@@ -53,7 +56,34 @@ export default function Navigation({ t }) {
                   </Link>
                 </li>
               ))}
-            </ul>
+            </ul> */}
+
+            <div className="dropdown">
+              <button
+                className="btn  text-light dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-globe"></i>{" "}
+              </button>
+              <ul
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton1"
+              >
+                {/* {router.locales.map((locale) => (
+                  <li key={locale}>
+                    <Link href={router.asPath} locale={locale}>
+                      <a class="dropdown-item text-dark">{locale}</a>
+                    </Link>
+                  </li>
+                ))} */}
+                <li>
+                  <LocaleSwitcher />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </nav>

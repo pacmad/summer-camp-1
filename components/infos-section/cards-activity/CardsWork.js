@@ -5,7 +5,7 @@ export default function CardsWork() {
   const cardActivityData = [
     {
       id: 1,
-      titre: "LES STRUCTURES D’INSERTION",
+      titre: "Les structures d'insertion",
       info: "Emmaus Etikette, Emmaus Ethilocletters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will un",
       picture: "./images/emmaus-insertion.jpg",
       site: "https://www.zone51.net/zone51/notre-projet/",
@@ -19,7 +19,7 @@ export default function CardsWork() {
     },
     {
       id: 3,
-      titre: "La vie Communauté",
+      titre: "La vie communauté",
       info: "letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will un",
       picture: "./images/emmaus9.jpg",
       site: "https://www.visit.alsace",
@@ -27,7 +27,7 @@ export default function CardsWork() {
 
     {
       id: 4,
-      titre: "Le tri des objets",
+      titre: "Tri des objets",
       info: "letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will un",
       picture: "./images/emmaus-tri.jpg",
       site: "https://www.visitstrasbourg.fr",
