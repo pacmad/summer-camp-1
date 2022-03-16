@@ -7,6 +7,7 @@
   .section-1 {
     margin: 5rem auto;
   }
+
   .section-2 {
     margin: 10rem auto;
 
@@ -78,6 +79,9 @@
   @media screen and (max-width: 768px) {
     h1 {
       font-size: 1.7rem;
+    }
+    .video-yt {
+      display: none;
     }
   }
 }

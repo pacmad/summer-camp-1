@@ -13,7 +13,6 @@ export default function application() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
               voluptatum sus ore harum.
             </p>
-
             <form>
               <fieldset className="form-group">
                 <div className="row"></div>

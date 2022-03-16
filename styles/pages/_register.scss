@@ -9,7 +9,7 @@
   .register-content {
     background-color: #ffffff;
     margin-top: -150px;
-    padding: 5rem;
+    padding: 5rem 2rem 5rem 2rem;
   }
 
   .subtitle::after {
@@ -19,5 +19,10 @@
     height: 0.2em;
     width: 6em;
     margin: 2em 0;
+  }
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 1.7rem;
+    }
   }
 }

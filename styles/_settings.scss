@@ -4,7 +4,7 @@ $primary: #2a8682;
 $secondary: #004f93;
 $success: #198754;
 $danger: #dc3545;
-$dark: #111439;
+$dark: #424242;
 $warning: #ffc107;
 $light: #fff;
 $info: #d3eae8;
@@ -40,4 +40,8 @@ h2 {
     #a560b7 60%,
     #e67599 70%
   );
+}
+
+p {
+  color: $dark;
 }

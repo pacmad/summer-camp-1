@@ -60,13 +60,13 @@ export default function Navigation({ t }) {
 
             <div className="dropdown">
               <button
-                className="btn  text-light dropdown-toggle"
+                className="btn dropdown-toggle"
                 type="button"
                 id="dropdownMenuButton1"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <i class="fa-solid fa-globe"></i>{" "}
+                <i className="fa-solid fa-globe"></i>{" "}
               </button>
               <ul
                 className="dropdown-menu"

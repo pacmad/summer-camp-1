@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Citation() {
   return (
-    <div className="citation container">
+    <div className="citation container my-5">
       <blockquote className="blockquote text-center">
         <h2>
           L'amitié, c'est ce qui vient au coeur quant on fait ensemble des
