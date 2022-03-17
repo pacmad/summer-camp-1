@@ -19,14 +19,15 @@ export default function CardsLoisir() {
     },
     {
       id: 3,
-      titre: "Visite Sélestat",
+      titre: "Bowling",
       info: "letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will un",
       picture: "./images/strasbourg3.jpg",
       site: "https://www.visit.alsace",
     },
     {
       id: 4,
-      titre: "Visite Strasbourg",
+      titre:
+        "Visite des villages de montagne, chacun avec sa propre spécialité.",
       info: "letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will un",
       picture: "./images/strasbourg2.jpg",
       site: "https://www.visitstrasbourg.fr",

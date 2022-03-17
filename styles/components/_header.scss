@@ -1,10 +1,10 @@
 .header {
-  background: url(/images/summer2.jpg);
+  background: url(/images/solidarite.jpg);
   background-position: center;
   background-size: cover;
   filter: brightness(0.9) grayscale(0.42);
   height: 800px;
-  padding: 8rem 0;
+  padding: 12rem 0;
 
   .header-titre {
     background: rgba(255, 255, 255, 0.25);
@@ -13,8 +13,6 @@
     -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    width: 80%;
-    margin: auto;
   }
 
   @media screen and (max-width: 768px) {

@@ -3,17 +3,17 @@ export default function Links() {
     <div>
       <footer className="link">
         <section>
-          <div className="container text-center pt-5">
-            <div className="row">
-              <div className="col-md my-3">
+          <div className="container pt-5">
+            <div className="row ">
+              <div className="col-md my-3 ">
                 <h6 className="text-uppercase fw-bold mb-4">
                   Emmaüs Scherwiller
                 </h6>
                 <p>
                   6 Place Abbé Pierre<br></br> 67750 Scherwiller
                 </p>
-                <p>info@exemple.fr</p>
-                <p>+33 236 325 88</p>
+                <p>E-mail : info@exemple.fr</p>
+                <p>Tél : +33 236 325 88</p>
               </div>
 
               <div className="col-md my-3">

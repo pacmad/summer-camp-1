@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeaderTitre({ t }) {
   return (
-    <div className="p-5 header-titre text-center shadow ">
+    <div className="p-5 header-titre text-center shadow container">
       <h1>{t("title")}</h1>
       <p>{t("subtitle")}</p>
       <Link href="/about">

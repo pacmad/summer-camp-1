@@ -8,15 +8,16 @@ export default function Navigation({ t }) {
   let router = useRouter();
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand-lg fixed-top navbar-dark">
+      <nav className="navbar navbar-expand-lg fixed-top navbar-light">
         <div className="container">
-          <Link className="navbar-brand" href="/">
-            <a>
+          <Link href="/">
+            <a className="navbar-brand">
               <Image
+                objectFit="cover"
                 src="/images/logo-emmaus.png"
                 alt="logo-emmaus"
-                width={200}
-                height={60}
+                width={170}
+                height={50}
               />
             </a>
           </Link>
@@ -37,15 +38,25 @@ export default function Navigation({ t }) {
           >
             <ul className="navbar-nav m-auto mb-2 mb-lg-0 ">
               <li className="nav-item nav-link ">
-                <Link className="active" aria-current="page" href="/">
-                  {t("accueil")}
+                <Link href="/">
+                  <a className={router.pathname == "/" ? "active" : ""}>
+                    {t("accueil")}
+                  </a>
                 </Link>
               </li>
               <li className="nav-item nav-link">
-                <Link href="/about">{t("à propos")}</Link>
+                <Link href="/about">
+                  <a className={router.pathname == "/about" ? "active" : ""}>
+                    {t("à propos")}
+                  </a>
+                </Link>
               </li>
               <li className="nav-item nav-link">
-                <Link href="/register">{t("inscription")}</Link>
+                <Link href="/register">
+                  <a className={router.pathname == "/register" ? "active" : ""}>
+                    {t("inscription")}
+                  </a>
+                </Link>
               </li>
             </ul>
             {/* <ul className="navbar-nav">

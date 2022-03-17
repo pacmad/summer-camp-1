@@ -6,4 +6,8 @@
     text-decoration: none;
     color: $dark;
   }
+
+  .active {
+    border-bottom: 1px solid $dark;
+  }
 }

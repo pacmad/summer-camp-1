@@ -3,6 +3,7 @@
   margin-bottom: 5rem;
   background-color: #ffffff;
   padding: 5rem 2rem 5rem 2rem;
+  position: relative;
 
   .section-1 {
     margin: 5rem auto;
@@ -76,6 +77,7 @@
   .cta:active {
     transform: scale(0.95);
   }
+
   @media screen and (max-width: 768px) {
     h1 {
       font-size: 1.7rem;
@@ -84,4 +86,17 @@
       display: none;
     }
   }
+}
+
+.about-section::after {
+  content: "";
+  position: absolute;
+  opacity: 0.1;
+  background: url(/images/tent.png);
+  height: 30em;
+  width: 25em;
+  right: 0;
+  bottom: 0;
+
+  // transform: rotate(20deg);
 }

@@ -28,7 +28,7 @@ export default function AboutSection({ t }) {
           <div className="col-md-8">
             <Image
               objectFit="cover"
-              className="rounded "
+              className="rounded"
               src="/images/strasbourg3.jpg"
               alt="emmaus-scherwiller"
               loading="lazy"
@@ -111,9 +111,8 @@ export default function AboutSection({ t }) {
         </div>
       </div>
       {/* Go somewhrer video-yt */}
-
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 my-1">
           <div class="card h-100 ">
             <div class="card-body">
               <h5>Découvrez l'association EMMAÜS FRANCE</h5>
@@ -140,7 +139,7 @@ export default function AboutSection({ t }) {
             ></iframe>
           </div>
         </div>
-        <div className=" col-md-6">
+        <div className=" col-md-6 my-1">
           <div class="card h-100">
             <div class="card-body">
               <h5>Découvrez l'association EMMAÜS SCHERWILLER</h5>

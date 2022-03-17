@@ -4,6 +4,7 @@ export default function Tabs({ t }) {
   return (
     <div className="tabs">
       <h2>{t("title-3")}</h2>
+      <p>Comment venir ?</p>
       <div className="d-md-flex bg-info rounded p-5 shadow">
         <div
           className="nav flex-md-column nav-pills me-3 pe-3"
@@ -21,7 +22,7 @@ export default function Tabs({ t }) {
             aria-controls="v-pills-when"
             aria-selected="true"
           >
-            {t("quand")}
+            {t("quand")} <i class="fa-solid fa-calendar-check"></i>
           </button>
           <button
             className="nav-link text-end"
@@ -33,7 +34,7 @@ export default function Tabs({ t }) {
             aria-controls="v-pills-where"
             aria-selected="true"
           >
-            Où
+            Où <i class="fa-solid fa-location-dot"></i>
           </button>
           <button
             className="nav-link text-end"
@@ -45,7 +46,7 @@ export default function Tabs({ t }) {
             aria-controls="v-pills-stay"
             aria-selected="false"
           >
-            {t("hebergement")}
+            {t("hebergement")} <i class="fa-solid fa-campground"></i>
           </button>
           <button
             className="nav-link text-end"
@@ -57,7 +58,7 @@ export default function Tabs({ t }) {
             aria-controls="v-pills-meal"
             aria-selected="false"
           >
-            {t("repas")}
+            {t("repas")} <i class="fa-solid fa-burger"></i>
           </button>
           <button
             className="nav-link text-end"
@@ -69,7 +70,7 @@ export default function Tabs({ t }) {
             aria-controls="v-pills-transport"
             aria-selected="false"
           >
-            Trasport
+            Trasport <i class="fa-solid fa-plane-departure"></i>
           </button>
         </div>
         <div className="tab-content text-primary mt-3" id="v-pills-tabContent">
@@ -98,7 +99,7 @@ export default function Tabs({ t }) {
             role="tabpanel"
             aria-labelledby="v-pills-stay-tab"
           >
-            <p>Camping Scherwiller</p>
+            <p>Cette année nos campers seront logés à l’hôtel.</p>
           </div>
           <div
             className="tab-pane fade"
